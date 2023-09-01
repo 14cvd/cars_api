@@ -1,4 +1,4 @@
-import 'package:cars_api/screen/car_details_screen.dart';
+import 'package:cars_api/screen/main_screen/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CarDetails(),
+      home: MainScreen(),
     );
   }
 }

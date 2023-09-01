@@ -1,4 +1,4 @@
-import 'package:cars_api/widget/future_widget.dart';
+import 'package:cars_api/screen/main_screen/widget/future_widget.dart';
 import 'package:flutter/material.dart';
 
 class BottomBody extends StatelessWidget {

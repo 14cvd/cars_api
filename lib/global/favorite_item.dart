@@ -5,7 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 // ignore: must_be_immutable
 class FavoriteItem extends ConsumerWidget {
-  FavoriteItem({super.key, this.change = false});
+  FavoriteItem({super.key, required this.change});
   bool change;
   @override
   Widget build(BuildContext context, WidgetRef ref) {
